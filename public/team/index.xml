@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team on FETCH₄</title>
+    <link>/team/</link>
+    <description>Recent content in Team on FETCH₄</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alex J. Turner</title>
+      <link>/team/machinelearning/turner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/machinelearning/turner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lee T. Murray</title>
+      <link>/team/modeling/murray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/murray/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vasilli V. Petrenko</title>
+      <link>/team/measurements/petrenko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/petrenko/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kazuyuki Miyazaki</title>
+      <link>/team/machinelearning/miyazaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/machinelearning/miyazaki/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

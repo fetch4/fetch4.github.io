@@ -1,0 +1,16 @@
+<div class="team team-summary">
+  {{ if .Params.thumbnail }}
+  <div class="team-image">
+    <img src="{{ .Params.thumbnail | relURL }}"/>
+  </div>
+  {{ end }}
+  <div class="team-content">
+    <h2 class="team-title">
+      {{ .Title }}
+    </h2>
+    <h5 class="team-institution">
+      {{ .Params.institution }}
+    </h5>
+    {{ .Params.role }}
+  </div>
+</div>
