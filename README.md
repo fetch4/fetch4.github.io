@@ -5,7 +5,7 @@
 This repo contains the source code for the FETCH₄ website.
 The site uses the [Hugo](https://gohugo.io/) framework.
 The source files are written in markdown.
-A [GitHub workflow](https://github.com/fet/fetch4.github.io/blob/master/.github/workflows/build-and-deploy.yaml) is configured to automatically build and deploy the website to <https://fetch4.github.io/> whenever the `master` branch of this repo is updated.
+A [GitHub workflow](https://github.com/fet/fetch4.github.io/blob/master/.github/workflows/hugo.yaml) is configured to automatically build and deploy the website to <https://fetch4.github.io/> whenever the `master` branch of this repo is updated.
 
 ## Instructions for updating this site
 
