@@ -69,11 +69,6 @@ theme = "hugo-hero-theme"
 #     url = "/news/"
 #     weight = 7
 
-[[menu.main]]
-    name = "work"
-    url = "/work/"
-    weight = 5
-
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
