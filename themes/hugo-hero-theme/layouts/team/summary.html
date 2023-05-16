@@ -1,13 +1,25 @@
 <div class="team team-summary">
   {{ if .Params.thumbnail }}
-  <div class="team-image">
-    <img class="img-fluid mb-2" src="{{ .Params.thumbnail | relURL }}" height=50% width=50%/>
-  </div>
+    {{ if .Params.website }}
+      <div class="team-image">
+      <a href={{.Params.website}}><img class="img-fluid mb-2" src="{{ .Params.thumbnail | relURL }}" height=50% width=50%/></a>
+      </div>
+    {{else}}
+      <div class="team-image">
+      <img class="img-fluid mb-2" src="{{ .Params.thumbnail | relURL }}" height=50% width=50%/>
+      </div>
+    {{end}}
   {{ end }}
   <div class="team-content">
-    <h2 class="team-title">
-      {{ .Title }}
-    </h2>
+    {{ if .Params.website }}
+      <h2 class="team-title">
+        <a href={{.Params.website}}>{{ .Title }}</a>
+      </h2>
+    {{ else }}
+      <h2 class="team-title">
+        {{ .Title }}
+      </h2>
+    {{ end }}
     <h5 class="team-institution">
       {{ .Params.institution }}
     </h5>
