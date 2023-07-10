@@ -5,3 +5,6 @@ heroHeading: 'Research'
 heroSubHeading: ''
 heroBackground: 'https://source.unsplash.com/eluzJSfkNCk/1600x400'
 ---
+<div>
+{{< content-strip-left "/pages/about" "content1" >}}
+</div>

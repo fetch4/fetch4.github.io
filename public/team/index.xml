@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Alex J. Turner</title>
+      <title>Dr. Alex J. Turner</title>
       <link>/team/machinelearning/turner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Lee T. Murray</title>
+      <title>Dr. Lee T. Murray</title>
       <link>/team/modeling/murray/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Vasilli V. Petrenko</title>
+      <title>Dr. Vasilli V. Petrenko</title>
       <link>/team/measurements/petrenko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,11 +34,218 @@
     </item>
     
     <item>
-      <title>Kazuyuki Miyazaki</title>
+      <title>Dr. Alex T. Archibald</title>
+      <link>/team/modeling/archibald/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/archibald/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Allegra N. LeGrande</title>
+      <link>/team/modeling/legrande/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/legrande/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Andrew Smith</title>
+      <link>/team/measurements/smith/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/smith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Christo Buizert</title>
+      <link>/team/measurements/buizert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/buizert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Clara Orbe</title>
+      <link>/team/modeling/orbe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/orbe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. David Etheridge</title>
+      <link>/team/measurements/etheridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/etheridge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Fiona O`Connor</title>
+      <link>/team/modeling/oconnor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/oconnor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Gerd Folberth</title>
+      <link>/team/modeling/folberth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/folberth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Gregory J. Hakim</title>
+      <link>/team/machinelearning/hakim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/machinelearning/hakim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Heather Graven</title>
+      <link>/team/measurements/graven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/graven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Hinrich Schaefer</title>
+      <link>/team/measurements/schaefer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/schaefer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Jeffrey Severinghaus</title>
+      <link>/team/measurements/severinghaus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/severinghaus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Julie M. Nicely</title>
+      <link>/team/machinelearning/nicely/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/machinelearning/nicely/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Kazuyuki Miyazaki</title>
       <link>/team/machinelearning/miyazaki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/team/machinelearning/miyazaki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Larry W. Horowitz</title>
+      <link>/team/modeling/horowitz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/horowitz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Paul T. Griffiths</title>
+      <link>/team/modeling/griffiths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/griffiths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Rachel H. Rhodes</title>
+      <link>/team/measurements/rhodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/rhodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Ray F. Weiss</title>
+      <link>/team/measurements/weiss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/weiss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Ryo Fujita</title>
+      <link>/team/measurements/fujita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/fujita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Shinji Morimoto</title>
+      <link>/team/measurements/morimoto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/morimoto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Sylvia Englund Michel</title>
+      <link>/team/measurements/englund_michel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/englund_michel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Thomas K. Bauska</title>
+      <link>/team/measurements/bauska/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/bauska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Thomas Röckmann</title>
+      <link>/team/measurements/r%C3%B6ckmann/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/measurements/r%C3%B6ckmann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Vaishali Naik</title>
+      <link>/team/modeling/naik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/modeling/naik/</guid>
       <description></description>
     </item>
     
