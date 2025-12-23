@@ -1,0 +1,365 @@
+/* ---------- Global ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b3d91;
+    padding: 0 24px;
+    height: 60px; /* gives breathing room for 60px logo */
+}
+
+.nav-logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+/* ---------- Nav Links ---------- */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    display: block;
+    padding: 18px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    background-color: #092f70;
+}
+
+/* ---------- Dropdown ---------- */
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0b3d91;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 240px;
+    z-index: 1000;
+}
+
+.dropdown-menu li a {
+    padding: 14px 18px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* ---------- Page Content ---------- */
+
+.content {
+    padding: 40px;
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+}
+
+/* ---------- Team Page ---------- */
+
+.team-group {
+    margin-top: 50px;
+}
+
+.team-group h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 30px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 8px 0 4px;
+    font-size: 16px;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Team member name links: subtle, non-jarring */
+.team-member h3 a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Underline appears only on hover */
+.team-member h3 a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.team-member h3 a:hover::after {
+    opacity: 0.85;
+}
+
+.team-member .team-link {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.team-member .team-link:hover h3 {
+    text-decoration: underline;
+}
+
+/* ---------- Working Group Figures ---------- */
+
+.wg-figure {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.wg-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.wg-figure figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* ---------- Publications Page ---------- */
+
+.pub-section {
+    margin-top: 40px;
+}
+
+.pub-section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.pub-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pub-list li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.pub-list a {
+    margin-left: 6px;
+    color: #0b3d91;
+    text-decoration: none;
+}
+
+.pub-list a:hover {
+    text-decoration: underline;
+}
+
+/* Publication list: restore bullets, clean spacing */
+.pub-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;   /* controls bullet indentation */
+    margin-top: 0.5rem;
+}
+
+.pub-list li {
+    margin-bottom: 0.75rem; /* space between papers */
+    line-height: 1.5;
+}
+
+/* ---------- Hero Banner ---------- */
+
+.hero {
+    position: relative;
+    min-height: 480px;   /* allows taller images */
+    background-image: url("../images/hero-earth.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;            /* shorthand for top/right/bottom/left = 0 */
+    background: rgba(0, 0, 0, 0.45);
+    color: white;
+    display: flex;
+    align-items: center; /* vertical centering */
+}
+
+.hero-content {
+    padding: 60px;
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* ---------- Home Sections ---------- */
+
+.home-section {
+    padding: 60px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gray-bg {
+    background-color: #f5f5f5;
+}
+
+.home-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.three-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.three-panel figure {
+    margin: 0;
+    position: relative;
+}
+
+.three-panel img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.three-panel figcaption {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.75rem;
+    right: 0.75rem;
+    color: #ffffff;
+    font-size: 0.95rem;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+}
+
+@media (max-width: 900px) {
+    .three-panel {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ---------- Working Group Cards ---------- */
+
+.wg-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.wg-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.wg-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.wg-card h3 {
+    margin: 0;
+    font-size: 28px;
+    color: #0b3d91;
+}
+
+.wg-card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* ---------- Goals ---------- */
+
+.goals-list {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.goals-list li {
+    margin-bottom: 10px;
+}
+

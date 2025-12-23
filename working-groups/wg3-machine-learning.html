@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WG3: Machine Learning | FETCH&#8324;</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/logo.ico">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-logo">
+        <a href="index.html">
+           <img src="../images/fetch4_logo.png" alt="FETCH4 logo">
+        </a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../team.html">Team</a></li>
+        <li class="dropdown">
+            <a href="#">Working Groups ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="wg1-measurements.html">WG1: Measurements</a></li>
+                <li><a href="wg2-modeling.html">WG2: Modeling</a></li>
+                <li><a href="wg3-machine-learning.html">WG3: ML</a></li>
+            </ul>
+        <li><a href="../publications.html">Publications</a></li>
+        </li>
+    </ul>
+</nav>
+
+<main class="content">
+    <h1>Working Group 3: Machine Learning</h1>
+    <p>
+        WG3 is building the computational infrastructure that will make FETCH<sub>4</sub> data scalable, accessible, and operational. This group develops machine learning emulators, satellite proxies, and data assimilation tools to support real-time methane monitoring and historical analysis.<BR><BR>
+
+        Full chemistry-climate models are comprehensive descriptions of the atmosphere, but computationally expensive. This makes them difficult to use for real-time decision-making or iterative data analysis. WG3 is addressing this bottleneck by creating machine learning surrogates that retain physical interpretability while allowing for rapid simulation and assimilation of new data.<BR><BR>
+
+        WG3 has developed the first linear inverse model (LIM) of a coupled chemistry-climate model, using training data from the GFDL-CM3. This emulator accurately reproduces spatio-temporal variations in OH and can be used for efficient chemical data assimilation.<BR><BR>
+
+        In parallel, WG3 is developing deep learning emulators of chemical mechanisms. Graduate students at the University of Washington are training these models using outputs from the GISS and CESM models. WG3 is also building a new box modeling framework to evaluate the effects of halogen chemistry on methane isotopes.<BR><BR>
+
+        <figure class="wg-figure">
+           <img src="../images/wg3_landsat.png">
+           <figcaption>
+              Methane emissions in Turkmenistan detected using deep learning and historical Landsat multispectral imagery (from He et al., PNAS 2024).  Left panel shows the methane timeseries and the 1992 methane slowdown.  Right panel shows an example plume detected in Turkmenistan.
+           </figcaption>
+        </figure>
+
+        Satellite data efforts are advancing rapidly. This group is using multispectral imagery from Landsat and Sentinel satellites to construct a long-term record of methane emissions from oil and gas infrastructure. A new U-Net-based technique for image inpainting is being used to recover missing Landsat 7 data from the early 2000s. This allows for analysis of methane trends during a critical period of post-Soviet industrial activity.
+
+    </p>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 FETCH<sub>4</sub></p>
+</footer>
+
+</body>
+</html>

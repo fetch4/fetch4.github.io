@@ -1,14 +1,111 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="1;url=https://fetch4.org">
-        <script type="text/javascript">
-            window.location.href = "https://fetch4.org"
-        </script>
-        <title>FETCH₄: Fate, Emissions, and Transport of CH₄</title>
-    </head>
-    <body>
-        Follow this link if you are not redirected automatically: <a href="https://fetch4.org">https://fetch4.org</a>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FETCH&#8324;</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.ico">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-logo">
+        <a href="index.html">
+           <img src="images/fetch4_logo.png" alt="FETCH4 logo">
+        </a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li class="dropdown">
+            <a href="#">Working Groups ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="working-groups/wg1-measurements.html">WG1: Measurements</a></li>
+                <li><a href="working-groups/wg2-modeling.html">WG2: Modeling</a></li>
+                <li><a href="working-groups/wg3-machine-learning.html">WG3: ML</a></li>
+            </ul>
+        <li><a href="publications.html">Publications</a></li>
+        </li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-overlay">
+       <div class="hero-content">
+           <h1>FETCH₄</h1>
+           <p>
+               The Fate, Emissions, and Transport of CH<sub>4</sub>: an international collaboration advancing our understanding of the past and modern methane cycle.
+           </p>
+       </div>
+    </div>
+</header>
+
+<main>
+
+    <!-- ABOUT -->
+    <section class="home-section">
+        <h2>Improving knowledge of the global methane cycle in the past, present, and future</h2>
+        <p>
+            Methane is a key component of the global carbon cycle, and understanding the processes controlling the abundance of atmospheric methane is profoundly important for understanding future climate and mitigation options. Major sources of methane include both natural- and human-driven pathways, including wetlands, fossil fuels, agriculture, landfills, and fires. Atmospheric methane concentrations have exhibited large variations over time, and have rapidly grown since 2020, yet the drivers of these variations remain scientifically elusive. Scientists know variations can be driven by other aspects of atmospheric chemistry as well, which are also currently poorly understood.
+
+            <div class="three-panel">
+                <figure>
+                    <img src="images/past-ice-core.png">
+                    <figcaption><b>Past</b> – ice core sampling</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/present-atmosphere.png">
+                    <figcaption><b>Present</b> – atmospheric sampling</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/future-modeling.png">
+                    <figcaption><b>Future</b> – modeling</figcaption>
+                </figure>
+            </div>
+
+            To fill these gaps, the FETCH₄ team will collect data from both Greenland ice cores and air samples from stations around the world and measure their unique chemical fingerprints. Their goal is to single out individual aspects of the methane cycle, such as those coming from fossil fuel emissions, and identify both their sources and sinks. Using what they learn, the team will develop and sharpen the capability of global climate models to account for methane. Scientists hope that by creating more efficient models, which will be accelerated by machine learning, they can better interpret these chemical fingerprints and more efficiently capture the methane feedback mechanism in global climate models.
+        </p>
+        <h2>Key Goals</h2>
+
+        <ul class="goals-list">
+            <li>Make new isotopologue measurements in modern air samples and Greenland ice cores</li>
+            <li>Develop new satellite measurements of fossil sources and the tropospheric oxidative capacity</li>
+            <li>Incorporate these isotopologues and satellite measurements into four chemistry-climate models</li>
+            <li>Develop faster representations of chemistry-climate models to interpret these measurements</li>
+            <li>Improve our understanding of the drivers of the methane cycle</li>
+        </ul>
+    </section>
+
+    <!-- WORKING GROUPS -->
+    <section class="home-section gray-bg">
+        <h2>Working Groups</h2>
+
+        <div class="wg-cards">
+            <a href="working-groups/wg1-measurements.html" class="wg-card">
+                <h3>WG1</h3>
+                <p>Measurements</p>
+            </a>
+
+            <a href="working-groups/wg2-modeling.html" class="wg-card">
+                <h3>WG2</h3>
+                <p>Modeling</p>
+            </a>
+
+            <a href="working-groups/wg3-machine-learning.html" class="wg-card">
+                <h3>WG3</h3>
+                <p>Machine Learning</p>
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 FETCH<sub>4</sub></p>
+</footer>
+
+</body>
 </html>
