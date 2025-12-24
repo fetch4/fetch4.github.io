@@ -32,22 +32,33 @@
 <main class="content">
     <h1>Working Group 3: Machine Learning</h1>
     <p>
-        WG3 is building the computational infrastructure that will make FETCH<sub>4</sub> data scalable, accessible, and operational. This group develops machine learning emulators, satellite proxies, and data assimilation tools to support real-time methane monitoring and historical analysis.<BR><BR>
+        WG3 is developing the computational and data infrastructure that makes FETCH<sub>4</sub> observational and modeling advances scalable, interpretable, and operational. This group focuses on building reduced-order models, satellite-based proxies, and data assimilation systems that connect methane observations to the processes governing atmospheric oxidation across both the modern era and Earth’s past.<BR><BR>
 
-        Full chemistry-climate models are comprehensive descriptions of the atmosphere, but computationally expensive. This makes them difficult to use for real-time decision-making or iterative data analysis. WG3 is addressing this bottleneck by creating machine learning surrogates that retain physical interpretability while allowing for rapid simulation and assimilation of new data.<BR><BR>
+        Comprehensive chemistry-climate models provide the most complete description of methane-OH interactions, but their computational cost limits their use for rapid hypothesis testing, uncertainty quantification, and data assimilation. WG3 addresses this bottleneck by developing physically interpretable machine learning emulators that reproduce the behavior of full chemistry-climate models at a fraction of the computational expense. Using output from coupled chemistry-climate simulations, WG3 has developed the first linear inverse model (LIM) of a global chemistry-climate system, trained on the GFDL-CM3 model. This emulator captures spatiotemporal variability in OH and provides a computationally efficient framework for chemical data assimilation and sensitivity analysis.<BR><BR>
 
-        WG3 has developed the first linear inverse model (LIM) of a coupled chemistry-climate model, using training data from the GFDL-CM3. This emulator accurately reproduces spatio-temporal variations in OH and can be used for efficient chemical data assimilation.<BR><BR>
+        <figure class="wg-figure">
+           <img src="../images/wg3_lim.png">
+           <figcaption>
+              Comparison of tropical OH statistics of 1000-year integrations of GFDL-CM3 and the emulator from <a href="https://doi.org/10.5194/acp-25-15033-2025" target="_blank">Mei et al., ACP (2025)</a>.
+           </figcaption>
+        </figure>
 
-        In parallel, WG3 is developing deep learning emulators of chemical mechanisms. Graduate students at the University of Washington are training these models using outputs from the GISS and CESM models. WG3 is also building a new box modeling framework to evaluate the effects of halogen chemistry on methane isotopes.<BR><BR>
+        In parallel, WG3 is developing nonlinear, deep learning emulators of chemical mechanisms. Graduate students at the University of Washington are training these models using output from the NASA GISS and NCAR CESM2 models, with the goal of retaining key chemical sensitivities while enabling rapid forward simulation. These tools support both present-day inversions and long-term simulations that would otherwise be impractical with full chemistry-climate models. Complementary box-model frameworks are also being developed to isolate and quantify the role of halogen chemistry in shaping methane isotopic signatures.<BR><BR>
+
+        A major focus of WG3 is constraining atmospheric oxidation using satellite observations. The group is developing satellite-based proxies for OH and related oxidants using multispectral and trace-gas observations, building on recent work that links satellite-retrieved chemical tracers to large-scale OH variability. These efforts provide independent, observation-driven constraints on the oxidative capacity of the atmosphere and help bridge the gap between sparse in situ measurements and global model simulations. In parallel, collaborators at NASA JPL are developing chemical data assimilation systems to produce OH reanalysis products that integrate satellite observations with chemistry-climate models, providing a dynamically consistent view of oxidant variability.<BR><BR>
 
         <figure class="wg-figure">
            <img src="../images/wg3_landsat.png">
            <figcaption>
-              Methane emissions in Turkmenistan detected using deep learning and historical Landsat multispectral imagery (from He et al., PNAS 2024).  Left panel shows the methane timeseries and the 1992 methane slowdown.  Right panel shows an example plume detected in Turkmenistan.
+              Methane emissions in Turkmenistan detected using deep learning and historical Landsat multispectral imagery (<a href="https://doi.org/10.1073/pnas.2314600121" target="_blankl">He et al., PNAS 2024</a>).  Left shows the methane timeseries and the 1992 methane slowdown.  Right shows an example plume detection.
            </figcaption>
         </figure>
 
-        Satellite data efforts are advancing rapidly. This group is using multispectral imagery from Landsat and Sentinel satellites to construct a long-term record of methane emissions from oil and gas infrastructure. A new U-Net-based technique for image inpainting is being used to recover missing Landsat 7 data from the early 2000s. This allows for analysis of methane trends during a critical period of post-Soviet industrial activity.
+        WG3 also leads FETCH₄’s efforts to integrate satellite observations of methane emissions. Using Landsat and Sentinel imagery, the group is constructing a long-term record of methane emissions from oil and gas infrastructure. Machine learning techniques, including U-Net-based image inpainting, are being used to recover missing Landsat 7 data from the early 2000s. This enables analysis of methane emissions during a critical period of post-Soviet industrial change.<BR><BR>
+
+        Beyond the modern era, WG3 is extending these tools to paleo applications. Inversions and reduced-order models are being used to interpret ice core methane records and to explore how variability in methane sources and sinks, including OH, can generate the patterns observed in preindustrial and glacial-interglacial methane records. This work spans multidecadal variability in the late Holocene through longer-term changes over the Pleistocene, providing a framework for linking ice core observations to the underlying dynamics of the methane cycle.<BR><BR>
+
+        Together, these efforts position WG3 as the computational backbone of FETCH<sub>4</sub>, enabling synthesis of observations, models, and theory to understand methane and atmospheric oxidation across timescales ranging from years to hundreds of thousands of years.
 
     </p>
 </main>
