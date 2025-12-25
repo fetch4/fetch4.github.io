@@ -98,16 +98,16 @@ main {
 }
 
 .site-footer a img {
-    height: 28px;
-    max-height: 28px;
+    height: 32px;
+    max-height: 32px;
     width: auto;
     display: block;
 }
 
 .funder-logo {
-    height: 28px;
+    height: 32px;
     width: auto;
-    max-height: 28px;
+    max-height: 32px;
 }
 
 @media (max-width: 600px) {
