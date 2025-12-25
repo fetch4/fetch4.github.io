@@ -97,6 +97,13 @@ main {
     background-color: #f5f5f5;  /* light gray */
 }
 
+.site-footer a img {
+    height: 28px;
+    max-height: 28px;
+    width: auto;
+    display: block;
+}
+
 .funder-logo {
     height: 28px;
     width: auto;
