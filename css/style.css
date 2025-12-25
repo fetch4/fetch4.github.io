@@ -98,8 +98,9 @@ main {
 }
 
 .funder-logo {
-    height: 32px;   /* adjust as needed */
+    height: 28px;
     width: auto;
+    max-height: 28px;
 }
 
 @media (max-width: 600px) {
