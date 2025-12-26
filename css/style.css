@@ -70,7 +70,7 @@ body {
     display: block;
 }
 
-/* ---------- Dropdown (Working Groups) ---------- */
+/* ---------- Dropdown (Science) ---------- */
 
 .dropdown-menu-res {
     display: none;
@@ -81,7 +81,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    min-width: 144px;
+    min-width: 129px;
     z-index: 1000;
 }
 
