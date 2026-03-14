@@ -380,18 +380,16 @@ main {
 .wg-card {
     background: white;
     border: 1px solid #ddd;
-    border-left: 4px solid #0b3d91;
     padding: 30px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: inherit;
-    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .wg-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    background-color: #f0f4fb;
 }
 
 .wg-card h3 {
@@ -400,18 +398,9 @@ main {
     color: #0b3d91;
 }
 
-.wg-card .wg-card-label {
+.wg-card p {
     margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 16px;
-    font-weight: bold;
-}
-
-.wg-card .wg-card-desc {
-    margin: 0;
-    font-size: 14px;
-    color: #555;
-    line-height: 1.5;
 }
 
 /* ---------- Goals ---------- */
