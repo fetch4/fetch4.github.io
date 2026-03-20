@@ -113,7 +113,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 0.75rem 1.5rem;
     font-size: 0.85rem;
     color: #666;
     border-top: 1px solid #e0e0e0;
@@ -121,16 +121,16 @@ main {
 }
 
 .site-footer a img {
-    height: 32px;
-    max-height: 32px;
+    height: 40px;
+    max-height: 40px;
     width: auto;
     display: block;
 }
 
 .funder-logo {
-    height: 32px;
+    height: 40px;
     width: auto;
-    max-height: 32px;
+    max-height: 40px;
 }
 
 @media (max-width: 600px) {
