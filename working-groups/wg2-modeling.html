@@ -42,16 +42,24 @@
 <main class="content">
     <h1>Working Group 2: Modeling</h1>
     <p>
-        WG2 leads the development and implementation of chemistry-climate models to interpret methane (CH<sub>4</sub>) isotopologue data and simulate key time periods in Earth’s climate history. These models provide a mechanistic foundation for understanding methane dynamics and the processes that control the oxidative capacity of the atmosphere.<BR><BR>
+        WG2 develops and runs the chemistry-climate model simulations that provide the mechanistic foundation for FETCH<sub>4</sub>. The group implements a common chemical mechanism across four state-of-the-art models, runs simulations spanning glacial through modern time periods, and produces the high-resolution model output that WG3 uses to train and evaluate its machine learning emulators. Comprehensive climate models with interactive chemistry are critical for evaluating methane's sources and sinks, but most models are too computationally intensive to run frequently, and few include the isotopic tracers or halogen chemistry needed to interpret modern observations. WG2 addresses both of these limitations directly.
+    </p>
+    <p>
+        A central design choice in FETCH<sub>4</sub> is to implement the same chemical mechanism across four independent chemistry-climate models: NASA GISS ModelE2.1, NCAR CESM2, UKESM2, and NOAA GFDL ESM4. Running identical chemistry in multiple models allows the team to separate robust signals from model-specific behavior, quantify structural uncertainty in methane and OH simulations, and generate diverse training data for the WG3 emulator hierarchy. Each model brings different representations of atmospheric dynamics, ocean coupling, and land surface processes, making the multi-model ensemble more informative than any single model could be. This approach also positions FETCH<sub>4</sub> to contribute to future model intercomparison efforts with a level of chemical detail that has rarely been available in previous assessments.
+    </p>
+    <p>
+        The FETCH<sub>4</sub> chemical mechanism includes online methane isotopologues (<sup>13</sup>CH<sub>4</sub>, CH<sub>3</sub>D, <sup>14</sup>CH<sub>4</sub>), <sup>14</sup>CO, and comprehensive tropospheric halogen chemistry, including reactive chlorine, bromine, and iodine species that play an outsized role in methane isotopic fractionation relative to their contribution to bulk methane loss. This mechanism has been fully implemented in NASA GISS ModelE2.1 and NCAR CESM2, with implementation ongoing in UKESM2. Having the same mechanism running across multiple models enables direct structural comparisons of methane and OH variability that previous multi-model studies could not perform, due to differences in underlying chemical schemes.
+    </p>
 
-        Comprehensive climate models with interactive chemistry are critical for evaluating methane’s sources and sinks. However, most models are too computationally intensive to run frequently, and few include isotopic tracers or halogen chemistry that are necessary for interpreting modern observations. These limitations hinder the ability to extract full value from datasets and to perform long-term simulations with confidence.<BR><BR>
+    <figure class="wg-figure">
+        <img src="../images/wg2_chlorine.png">
+        <figcaption>
+            Surface chlorine radical abundances simulated in CESM2 and GISS using an identical GEOS-Chem chemical mechanism, demonstrating the multi-model implementation of the FETCH<sub>4</sub> chemistry framework.
+        </figcaption>
+    </figure>
 
-        WG2 has implemented the GEOS-Chem chemical mechanism into two major climate models: the NASA GISS model and the NCAR CESM2 model. This implementation includes interactive methane isotopologues and halogen chemistry. Collaborators at NASA GISS are preparing boundary conditions and forcings for upcoming paleo time-slice simulations, which will inform machine learning model training.<BR><BR>
-
-        WG2 is also extending this modeling framework to two additional global climate models: the UKESM2 and the NOAA GFDL ESM4. These efforts will allow them to simulate methane and its isotopes across multiple modeling platforms, providing independent comparisons and a more robust understanding of methane variability. In parallel, they are preparing simulations for specific time periods such as the preindustrial era and intervals during the last ice age. These simulations will help interpret upcoming ice core measurements and serve as training data for machine learning emulators. This work forms a key part of FETCH<sub>4</sub>'s broader effort to link atmospheric observations with the processes that govern methane across Earth’s history.<BR><BR>
-
-        WG2 will produce simulations of past and present methane dynamics, including during glacial transitions and recent decades of atmospheric growth. These simulations will provide valuable context for interpreting ice core records and satellite data. As emulator tools mature, WG2 will also begin integrating machine learning components to enhance speed and flexibility.
-
+    <p>
+        With the chemical mechanism in place, WG2 is preparing a coordinated set of time-slice simulations spanning the Last Glacial Maximum, the preindustrial era, and the modern period. These simulations archive high-frequency three-dimensional chemical and physical fields that serve two purposes: they provide training data for the WG3 machine learning emulators, and they allow the team to investigate outstanding scientific questions about methane variability across past climate states. A <sup>14</sup>CO inversion framework has also been developed within GEOS-Chem to interpret the new global <sup>14</sup>CO observations from WG1 and constrain variability in tropospheric OH. In parallel, ONNX4ESM provides a portable Fortran-based framework for deploying the machine learning parameterizations developed by WG3 directly within these Earth system models, closing the loop between the two groups.
     </p>
 </main>
 
