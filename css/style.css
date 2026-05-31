@@ -216,6 +216,24 @@ main {
     text-decoration: underline;
 }
 
+.team-photo {
+    max-width: 800px;
+    margin: 40px 0;
+    text-align: left;
+}
+
+.team-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.team-photo figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
 /* ---------- Working Group Figures ---------- */
 
 .wg-figure {
